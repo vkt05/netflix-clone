@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#web-wrap{
+    height: 100%;
+    width: 100%;
+}
+#body-wrap{
+    height: 100%;
+    width: 100%;
+}
+#nav-wrap{
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+header{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 2;
+}
+#logo{
+    height: 40px;
+}
+#nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    text-align: center;
+    appearance: none;
+    width: 115px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background: none;
+    border: 1px solid grey;
+    height: 33px;
+    border-radius: 3px;
+    z-index: 1;
+}
+select:hover{
+    outline: 2px solid white;
+}
+option{
+    background-color: white;
+    color: black;
+    padding: 2px;
+}
+#lang-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#arrow-small{
+    position: relative;
+    right: 35px;
+}
+#lang-logo{
+    position: relative;
+    left: 35px;
+}
+#sign-in-btn{
+    height: 33px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px
+}
+#main-wrap{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+}
+
+#first{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_large.jpg);
+    transform: scale(1.2);
+    background-position: center center;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 43em;
+    opacity: 0.5;
+    z-index: -1;
+}
+#first-container{
+    width: 100%;
+    overflow: hidden;
+    height: 43em;
+}
+#shade{
+    width: 100%;
+    height: 43em;
+    background-image: linear-gradient(to top,rgba(0 ,0 ,0 ,0.8) 0%,rgba(0 ,0 ,0 , 0) 60%,rgba(0 ,0, 0 ,0.8) 100%);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    opacity: 0.5;
+}
+.h1-heading{
+    width: 100%;
+    height: 38em;
+    position: absolute;
+    top: 75px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 25px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+p{
+    font-size: 25px;
+}
+
+ .separator{
+    background-color: rgb(34, 34, 34);
+    height: 8px;
+    width: 100%;
+}
+#second{
+    width: 100%;
+    height: 35em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#third{
+    width: 100%;
+    height: 35em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+#forth{
+    width: 100%;
+    height: 35em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+#fifth{
+    width: 100%;
+    height: 35em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+} 
+
+.form{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.form-in{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+.btn-started{
+    background-color: red;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    width: 13em;
+    align-items: center;
+    column-gap: 10px;
+}
+.btn-started img{
+    position: relative;
+    right: 28px;
+}
+.submit{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+h3{
+    font-weight: 100;
+    font-size: 20px;
+}
+form input{
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(66, 64, 64);
+    
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+    width: 26em;
+    height: 2em;
+}
+form input::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(158, 158, 158);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 59%;
+    color: white;
+}
+.title{
+    display: flex;
+    width: 58%;
+    row-gap: 15px;
+    flex-direction: column;
+}
+.img-vid-wrap{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    position: absolute;
+    z-index: 1
+}
+.img-image{
+    height: 26em;
+}
+.video{
+    position: relative;
+    bottom: 10px;
+    right: 3px
+}
+.vid-video{
+    height: 14.2em;
+}
+
+#forth .img-vid-wrap .video{
+    position: relative;
+    bottom: 75px;
+    right: 3px
+}
+
+#forth .img-vid-wrap .vid-video{
+    height: 12.2em;
+}
+#faq-sec{
+    width: 100%;
+    padding: 4em 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.question-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.questions{
+    background-color: rgb(41, 40, 40);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.questions:hover{
+    background-color: rgb(56, 55, 55);
+}
+footer{
+    width: 100%;
+    display: flex ;
+    justify-content:center ;
+}
+#footer-cover{
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    padding: 4em 0px;
+
+}
+#footer-ul ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-ul ul li{
+    list-style-type: none;
+    text-decoration: underline;
+    cursor: pointer;
+    height: 2em;
+    width: 15em;
+}
+#footer-lang{
+    display: flex;
+    align-items: start;
+    position: relative;
+    left: -30px;
+}
