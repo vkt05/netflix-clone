@@ -352,3 +352,79 @@ footer{
     position: relative;
     left: -30px;
 }
+@media only screen and (max-width:1300px){
+    .container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .img-image{
+        height: 17em;
+    }
+    .title{
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+
+    }
+    p{
+        font-size:20px ;
+    }
+    .vid-video {
+        height: 9.5em;
+    }
+    #forth .img-vid-wrap .vid-video {
+        height: 8.5em;
+        position: relative;
+        top: 35px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 30px;
+
+    }
+    #logo{
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:630px){
+    .container{
+        width: 100%;
+    }
+    .submit{
+        height: 2em;
+    }
+    .form-in{
+        flex-direction: column;
+    }
+    .form{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .form-in{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .h1-heading{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:400px){
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #logo{
+        height: 40px;
+    }
+}
